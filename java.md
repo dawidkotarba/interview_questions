@@ -1,8 +1,5 @@
 # Java
 
-## Good practices
-- What are the rules/good practises for creating well designed class from Object Oriented programming perspective?
-
 ## Core
 - Describe what is the meaning of following keywords : protected,  private, public, no keyword.
 - What is the difference between override and overload?
