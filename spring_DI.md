@@ -1,0 +1,11 @@
+# Spring
+- Transaction isolation in Spring
+- Transation propagation in Spring
+- Component types (Service, Controller, Repository, etc.)
+- JDK proxy vs CGLib proxy vs AspectJ proxy
+- AspectJ compile time weaving vs runtime proxy
+- Why to use @Bean annotation? @Bean vs @Component
+- @Autowired vs @Resource
+- @Qualifier in autowiring
+- Spring beans scopes, web scopes
+- What is the relation between a JSP page and a servlet?
