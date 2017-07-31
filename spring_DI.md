@@ -5,6 +5,7 @@
 - JDK proxy vs CGLib proxy vs AspectJ proxy
 - AspectJ compile time weaving vs runtime proxy
 - Why to use @Bean annotation? @Bean vs @Component
+- When do we need aliasing of beans in Spring?
 - @Autowired vs @Resource
 - @Qualifier in autowiring
 - Spring beans scopes, web scopes
