@@ -16,6 +16,7 @@
 - Exceptions translation
 - Overloading vs overriding vs hiding
 - Rules of overloading
+- Can static method be overloaded? What is hiding? What will happen if extending class will define the non-static method with the same name?
 - Difference between object and primitive?
 - How to observe polymorphism in Java? Provide an example
 - Can interface have methods implemented?
@@ -27,6 +28,7 @@
 - Clone in Java (Cloneable interface, clone() method)
 - How to serialize object in Java? What is versionUID?
 - What is "transient" keyword?
+- Can Java return a covariant type?
 
 ## Generics
 - What is type erasure?
