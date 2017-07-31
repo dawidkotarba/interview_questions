@@ -6,10 +6,10 @@
 - How can you prevent class from being subclassed?
 - Transient keyword, what is it used for
 - Sax vs DOM XMl parsing
-- Some basics about jaxb
+- Some basics about jaxbpecs
 - How to make an object immutable?
 - What is defensive copying
-- Soft, weak, phantom references. How to make a cache from weak references?
+- Hard, soft, weak, phantom references. What are differences? How to make a cache from weak references? What can be used instead of finalize method?
 - How to make a memory leak in Java?
 - What is new in JDK7/8?
 - Checked vs unchecked exceptions. Can we catch Error? How to make a good API?
@@ -75,8 +75,9 @@
 - Tools provided with JDK
 - What is profiling?
 - What is JIT?
+- Describe how the code is compiled in Java (javac -> JIT)
 - How the code is compiled in java? bytecode vs native code compiled by JIT
-- What optimizations do you know that are performed by JIT?
+- What optimizations do you know that are performed by JIT? (inlining, branch prediction,loop enrolling moving some objects from heap to stack etc.)
 - What is the difference between server/client JIT compiler?
 
 ## JMS

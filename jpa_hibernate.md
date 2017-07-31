@@ -2,7 +2,7 @@
 - L1 cache vs L2 cache
 - eviction policies of cache
 - Types of relations
-- Types of inheritance (table per class, table for hierarchy, discriminator column, joined tables etc.). Performance and data consistency implications
+- Types of inheritance (table per class, table for hierarchy with discriminator column, joined tables etc.). Performance and data consistency implications
 - What is JPQL? What is Criteria API?
 - What is linking table? When it is created?
 - N+1 problem, how to solve that (batch, fetch join)
