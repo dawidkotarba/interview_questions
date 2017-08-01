@@ -30,7 +30,10 @@
 - What is "transient" keyword?
 - Can Java return a covariant type?
 - String interning in Java. intern() method
-- How many compilers are there in the JDK distribution? 
+- How many compilers are there in the JDK distribution?
+- What is immutable object pattern? Is it used in java (JDK)? Describe immutable types
+- What design patterns are used in JDK?
+- What methods are defined in Object class in Java? 
 
 ## Generics
 - What is type erasure?
@@ -86,6 +89,7 @@
 - Is Java a compiled or interpreted language?
 - What optimizations do you know that are performed by JIT? (inlining, branch prediction,loop enrolling moving some objects from heap to stack etc.)
 - What is the difference between server/client JIT compiler?
+- What is "Stop the world" in GC? When it is run?
 
 ## JMS
 - Topic vs Queue in JMS
