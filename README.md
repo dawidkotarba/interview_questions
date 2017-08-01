@@ -1,3 +1,3 @@
 # recruitment_questions
-Recruitment questions I was asked during interviews.
-Every interview will add more :)
+
+Recruitment questions I heard/was asked during interviews.
