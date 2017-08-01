@@ -6,7 +6,7 @@
 - How can you prevent class from being subclassed?
 - Transient keyword, what is it used for
 - Sax vs DOM XMl parsing
-- Some basics about jaxbpecs
+- What is jaxb? What tools (i.e wsimport) do you know?
 - How to make an object immutable?
 - What is defensive copying
 - Hard, soft, weak, phantom references. What are differences? How to make a cache from weak references? What can be used instead of finalize method?
@@ -71,6 +71,7 @@
 - What is EnumSet?
 - What needs to be implemented to make i.e. tree based working (Comparable interface)
 - What needs to be implemented to make hash based collection working (hashcode/equals)
+- PECS - when to use super, extends. What limitations they have? (i.e. putting/getting from collections, cast required etc.)
 
 ### JVM
 - What is full/major/minor GC? How to avoid full GC?
