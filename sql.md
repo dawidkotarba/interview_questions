@@ -5,4 +5,8 @@
 - What is index in database?
 - What data structures a db index can be based on?
 - What is "having" in SQL? When to use it?
+- Where to use "having" and when "where"
+- How can you display SQL query results so that they are not repeated (distinct)? 
+- What are views? How to create? Is it possible to update,insert?
+- What are: candidate key, primary key, composite key, foreign key, surrogate key?
 - ACID
