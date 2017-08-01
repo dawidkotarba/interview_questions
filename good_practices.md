@@ -1,9 +1,16 @@
 # Good practices
+
+## Class/methods design
 - What are the rules/good practises for creating well designed class from Object Oriented programming perspective?
-- How to make an object with good API?
-- SOLID
-- DRY, YAGNI, SMART for tests
-- CI, CD - what is that? What is the purpose?
+- What is SOLID, DRY, YAGNI?
+- What is a Demeter Law?
 - Fail fast vs fail safe - when to use what?
+- How to make an object with good API?
 - What is the difference between composition and inheritance?
-- What principles do you follow to make your code correct and clean?
+
+## Continuous Integration
+- How would you setup pipelines for CI? What about integration tests that run for a long time?
+
+## Continuous Deployment
+- What techniques do you know to make CD effective? (feature switches etc.)
+
