@@ -23,12 +23,14 @@
 - final, finalize, finally
 - When final is not going to be executed?
 - Boxing, Unboxing, Autoboxing - performance implications
-- Try-with-resources in Java7
-- What does it mean that a stream is lazy?
+- What is try-with-resources in Java7?
+- What does it mean that a stream from Java8 is lazy?
 - Clone in Java (Cloneable interface, clone() method)
 - How to serialize object in Java? What is versionUID?
 - What is "transient" keyword?
 - Can Java return a covariant type?
+- String interning in Java. intern() method
+- How many compilers are there in the JDK distribution? 
 
 ## Generics
 - What is type erasure?
@@ -46,7 +48,7 @@
 - synchronized based on method, object, class etc. Pros/Cons of each solution
 - How Atomic types work?
 - How volatile works?
-- How to start a new thread?
+- How to create and start a new thread? 
 - Runnable vs Callable
 - Describe Features
 - What is the difference between synchronization of static and non-static methods?
@@ -54,6 +56,7 @@
 - Write a code to make a deadlock
 - How to debug deadlocks?
 - What is thread dump? How to analyze that?
+- What does it mean that synchronized methods are reentrant synchronization? 
 
 ## Collections
 - types of queues in Java
@@ -79,6 +82,7 @@
 - What is JIT?
 - Describe how the code is compiled in Java (javac -> JIT)
 - How the code is compiled in java? bytecode vs native code compiled by JIT
+- Is Java a compiled or interpreted language?
 - What optimizations do you know that are performed by JIT? (inlining, branch prediction,loop enrolling moving some objects from heap to stack etc.)
 - What is the difference between server/client JIT compiler?
 
