@@ -75,6 +75,7 @@
 - What needs to be implemented to make i.e. tree based working (Comparable interface)
 - What needs to be implemented to make hash based collection working (hashcode/equals)
 - PECS - when to use super, extends. What limitations they have? (i.e. putting/getting from collections, cast required etc.)
+- How to make a good key in Map?
 
 ### JVM
 - What is full/major/minor GC? How to avoid full GC?
