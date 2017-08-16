@@ -10,3 +10,7 @@
 - What are views? How to create? Is it possible to update,insert?
 - What are: candidate key, primary key, composite key, foreign key, surrogate key?
 - ACID
+- What is a bulk insert?
+- Describe aggregate functions
+- What is a pagination of records?
+- What is a sequence?
