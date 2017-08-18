@@ -21,7 +21,7 @@
 - How to observe polymorphism in Java? Provide an example
 - Can interface have methods implemented?
 - final, finalize, finally
-- When final is not going to be executed?
+- When finally is not going to be executed?
 - Boxing, Unboxing, Autoboxing - performance implications
 - What is try-with-resources in Java7?
 - What does it mean that a stream from Java8 is lazy?
@@ -77,7 +77,7 @@
 - PECS - when to use super, extends. What limitations they have? (i.e. putting/getting from collections, cast required etc.)
 - How to make a good key in Map?
 
-### JVM
+# JVM
 - What is full/major/minor GC? How to avoid full GC?
 - Young vs Old generation
 - How GC works? (root, phases etc.)
@@ -92,5 +92,5 @@
 - What is the difference between server/client JIT compiler?
 - What is "Stop the world" in GC? When it is run?
 
-## JMS
+# JMS
 - Topic vs Queue in JMS
