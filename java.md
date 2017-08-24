@@ -59,7 +59,8 @@
 - Write a code to make a deadlock
 - How to debug deadlocks?
 - What is thread dump? How to analyze that?
-- What does it mean that synchronized methods are reentrant synchronization? 
+- What does it mean that synchronized methods are reentrant synchronization?
+- What is the difference between wait and sleep?
 
 ## Collections
 - types of queues in Java
