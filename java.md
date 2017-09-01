@@ -5,7 +5,7 @@
 - What is the difference between override and overload?
 - How can you prevent class from being subclassed?
 - Transient keyword, what is it used for
-- Sax vs DOM XMl parsing
+- Sax vs DOM XMl parsing. What is the difference with the approach?
 - What is jaxb? What tools (i.e wsimport) do you know?
 - How to make an object immutable?
 - What is defensive copying
@@ -33,7 +33,8 @@
 - How many compilers are there in the JDK distribution?
 - What is immutable object pattern? Is it used in java (JDK)? Describe immutable types
 - What design patterns are used in JDK?
-- What methods are defined in Object class in Java? 
+- What methods are defined in Object class in Java?
+- There are two methods with same name - one takes the argument of Object, another one of String. Which one will be invoked if we pass null and why?
 
 ## Generics
 - What is type erasure?
