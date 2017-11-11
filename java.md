@@ -35,6 +35,8 @@
 - What design patterns are used in JDK?
 - What methods are defined in Object class in Java?
 - There are two methods with same name - one takes the argument of Object, another one of String. Which one will be invoked if we pass null and why?
+- Is it a good practice to use "Optional" as a method argument? How about serialization?
+- What do you think about returning a Stream from a method?
 
 ## Generics
 - What is type erasure?

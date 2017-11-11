@@ -1,20 +1,20 @@
 # JPA / Hibernate
-- L1 cache vs L2 cache
-- eviction policies of cache
-- Types of relations
-- Types of inheritance (table per class, table for hierarchy with discriminator column, joined tables etc.). Performance and data consistency implications
+- What is a difference between L1 cache, L2 cache and query cache?
+- What eviction policies of hibernate cache do you know?
+- What types or relations between entities do you know? What are differences between uni-directional and bi-directional relations?
+- Types of inheritance (table per class, table for hierarchy with discriminator column, joined tables etc.). Performance and data consistency implications of those strategies.
 - What is JPQL? What is Criteria API?
 - What is linking table? When it is created?
-- N+1 problem, how to solve that (batch, fetch join)
-- uni-directional vs bi-directional relations
+- Which types of relations require a linking table? In which relations it is possible to avoid the linking table creation and where it is unavoidable?
+- What is N+1 problem and how to solve that (batch, fetch join)?
 - Pessimistic locking vs optimistic locking
-- ACID, Transaction isolations, propagation in JEE, Spring
-- Transaction phenomenas, how isolation levels are preventing
-- What is locked during each type of isolation
+- ACID, Transaction isolations, propagation in JEE/Spring
+- What transaction phenomenas do you know? How isolation levels are preventing from those phenomenas to occur?
+- What is locked during each type of isolation?
 - Cascading and related dangers (i.e. many to many relatations and cascading of all, remove)
 - List, Set in relations
 - How to make a good hashcode for entity?
 - Lazy fetching of collections. How does it work? How it relates to session?
 - What is a lifecycle of entity?
 - When to detach/merge entity?
-- Why default ctor is needed? (reflection)
+- Why default ctor is needed for entities?
