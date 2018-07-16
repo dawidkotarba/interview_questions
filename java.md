@@ -11,7 +11,7 @@
 - What is defensive copying
 - Hard, soft, weak, phantom references. What are differences? How to make a cache from weak references? What can be used instead of finalize method?
 - How to make a memory leak in Java?
-- What is new in JDK7/8?
+- What is new in JDK7/8/9/10...?
 - Checked vs unchecked exceptions. Can we catch Error? How to make a good API?
 - Exceptions translation
 - Overloading vs overriding vs hiding
@@ -51,7 +51,7 @@
 - How to implement singleton in the safe way? Enums as singletons.
 - i++ How many operations must jvm perform in such line?
 - What methods should be overridden in HttpServlet, what can we tell about thread safety of fields in servlet?
-- java.util.concurrent -> CountDownLatch, locks etc.
+- java.util.concurrent -> CountDownLatch, Read/Write locks, Atomic types etc.
 - synchronized based on method, object, class etc. Pros/Cons of each solution
 - How Atomic types work?
 - How volatile works?
@@ -65,6 +65,16 @@
 - What is thread dump? How to analyze that?
 - What does it mean that synchronized methods are reentrant synchronization?
 - What is the difference between wait and sleep?
+- What is POJO and where we should use it?
+- What is JNI (Java Native Interface)?
+- What are thread pools? What framework have you used to build such thread pool?
+- Why I/O resources are most likely exposed to deadlocks?
+- Where we can use Callable interface? What is Future an object in Callable interface?
+- How can we determine how may cores we can utilize in current environment to build our thread pool?
+- How we can generate ThreadDump on the machine we have only console/CLI access?
+- What is a critical section?
+- What is thread pools? What framework have you used to build such thread pool?
+- Why Concurrency Utilities were introduced? What data structures it implements? What other mechanisms it provides?
 
 ## Collections
 - types of queues in Java
@@ -83,10 +93,14 @@
 - How to make a good key in Map?
 
 # JVM
+
+## Garbage Collector
 - What is full/major/minor GC? How to avoid full GC?
 - Young vs Old generation
 - How GC works? (root, phases etc.)
+- Do you know difference between survivor 1 and survivor 2 in Java?
 - What is the structure of JVM heap?
+- How we can influence garbage collection in JVM?
 - Tools provided with JDK
 - What is profiling?
 - What is JIT?
@@ -96,6 +110,21 @@
 - What optimizations do you know that are performed by JIT? (inlining, branch prediction,loop enrolling moving some objects from heap to stack etc.)
 - What is the difference between server/client JIT compiler?
 - What is "Stop the world" in GC? When it is run?
+- What is memory fragmentation and why this can effect JVM-based applications performance or possibility to work?
+- If JVM cannot allocate memory for big collection of data but we have more than enough memory what can be an issue on level of operation system that we can expect?
+- How we can bypass memory limitations of JVM using JNI interface? Why we can do that?
+- How you will secure JVM application from perspective of performance, when you're developing socket application?
+- How we can create a second instance of Singleton object?
+
+# Libraries
+- How can we provide logging mechanisms inside Java application? What logging frameworks do you know?
+- Why it's better to use logging frameworks instead of output to System.out?
+
+# JMX
+- What is JMX?
+- Is JMX one way or two way communication protocol (read, write or read & write)?
+
 
 # JMS
 - Topic vs Queue in JMS
+

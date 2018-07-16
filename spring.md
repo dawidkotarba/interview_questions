@@ -1,3 +1,6 @@
+# General
+- How DispatcherServlet, implemented in Spring Framework works?
+
 # Spring DI
 - Component types (Service, Controller, Repository, etc.)
 - JDK proxy vs CGLib proxy vs AspectJ proxy

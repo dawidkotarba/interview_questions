@@ -18,3 +18,12 @@
 - What is a lifecycle of entity?
 - When to detach/merge entity?
 - Why default ctor is needed for entities?
+- What type of cache strategies do you know? (read, read_write, transactional etc.)
+- How do we mark the class to be persistable (from JPA perspective)?
+- How can we update database schema after making changes to java code?
+- What is the difference between INSERT and UPDATE?
+- What aggregation functions do you know?
+- What is a a FetchStrategy? Which one is default?
+- If you need to extend existing User entity with last login time what data types would you use on Java and DB levels? What variants can be used?
+- Rewrite the query to remove table joining: "select tab_a.col_a from tab_a join tab_b on tab_a.fid=tab_b.id where tab_b.col_b is not null;"
+

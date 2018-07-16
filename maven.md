@@ -6,3 +6,6 @@
 - How to pack a projet to zip file?
 - What is a Maven lifecycle?
 - How to list all dependencies in project?
+- What will Maven 'install' phase do?
+- What elements of parent POM can you use?
+- How can you overrule default Maven phase behaviour?
