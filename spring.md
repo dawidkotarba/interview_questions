@@ -14,7 +14,7 @@
 
 # Transactions in Spring
 - Transaction isolation in Spring
-- Transation propagation in Spring
+- Transaction propagation in Spring
 
 # Spring MVC
 - What is the relation between a JSP page and a servlet?

@@ -8,10 +8,10 @@
 - Which types of relations require a linking table? In which relations it is possible to avoid the linking table creation and where it is unavoidable?
 - What is N+1 problem and how to solve that (batch, fetch join)?
 - Pessimistic locking vs optimistic locking
-- ACID, Transaction isolations, propagation in JEE/Spring
+- ACID, Transaction isolation, propagation in JEE/Spring
 - What transaction phenomenas do you know? How isolation levels are preventing from those phenomenas to occur?
 - What is locked during each type of isolation?
-- Cascading and related dangers (i.e. many to many relatations and cascading of all, remove)
+- Cascading and related dangers (i.e. many to many relations and cascading of all, remove)
 - List, Set in relations
 - How to make a good hashcode for entity?
 - Lazy fetching of collections. How does it work? How it relates to session?
@@ -26,4 +26,3 @@
 - What is a a FetchStrategy? Which one is default?
 - If you need to extend existing User entity with last login time what data types would you use on Java and DB levels? What variants can be used?
 - Rewrite the query to remove table joining: "select tab_a.col_a from tab_a join tab_b on tab_a.fid=tab_b.id where tab_b.col_b is not null;"
-
