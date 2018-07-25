@@ -1,13 +1,32 @@
 # Java
 
+## Practical tasks:
+
+### Basic tasks:
+
+* Implement custom Stack / List / Queue.
+* Implement custom Stack / List / Queue using pure TDD.
+* Implement Stack / List / Queue methods using only recursion. 
+* Fibonacci recursive, iterative, stream.
+* Factorial recursive, iterative, stream.
+* Get rid of instanceOf() from code sample.
+* Reverse string recursive, iterative, stream.
+* Reverse array recursive, iterative, stream.
+
+### Multithreading tasks:
+
+* Implement good singleton ( with serialization / classloading and instantiation problems solved ).
+* Implement double check idiom.
+
 ## Core
 - Describe what is the meaning of following keywords : protected,  private, public, no keyword.
-- What is the difference between override and overload?
+- What is the difference between override and overload + static and runtime polymorphism.
 - How can you prevent class from being subclassed?
 - Transient keyword, what is it used for
 - Sax vs DOM XMl parsing. What is the difference with the approach?
 - What is jaxb? What tools (i.e wsimport) do you know?
 - How to make an object immutable?
+- What do we gain from class immutability?
 - What is defensive copying
 - Hard, soft, weak, phantom references. What are differences? How to make a cache from weak references? What can be used instead of finalize method?
 - How to make a memory leak in Java?
@@ -20,11 +39,14 @@
 - Difference between object and primitive?
 - How to observe polymorphism in Java? Provide an example
 - Can interface have methods implemented?
+- Can interface have private methods?
 - final, finalize, finally
 - When finally is not going to be executed?
+- Will finally be executed when we override SecurityManager behavior?
 - Boxing, Unboxing, Autoboxing - performance implications
 - What is try-with-resources in Java7?
 - What does it mean that a stream from Java8 is lazy?
+- For loop performance vs Stream performance for 100 items.
 - Clone in Java (Cloneable interface, clone() method)
 - How to serialize object in Java? What is versionUID?
 - What is "transient" keyword?
@@ -77,15 +99,52 @@
 - Why Concurrency Utilities were introduced? What data structures it implements? What other mechanisms it provides?
 
 ## Collections
-- types of queues in Java
+- Draw diagram of Java collections.
+
+### Maps
+* How does Map interface correspond with Collection interface?
+* Map vs Switch statement performance?
+* Would you use Switch with String or Map instead?
+
+#### HashMap
+- What is HashMap initial size?
+- How is initial size calculated. Why is bit-shift preferred over modulo for calculations like this?
+- What is HashMap loadFactor?
+- What is default value of load factor for HashMap?
+- What is bucket?
+- What data structures are used for buckets?
+- Does put() method have return type or is it void method?
+- Does get() method have return type of is it void method?
+- How is item stored in HashMap when put() is called.
+- How is item retrieved when get() is called.
+- Where are nulls stored in HashMap ( with index )?
+- What data structure is HashMap build upon?
+- Describe what rehashing is and when it occurs.
+- What data retrieval speed you would get from JDK 7 HashMap if someone implemented malicious hashcode that returns same value for all items put to map. Would such thing even work? If yes why if no why? What about JDK 8+ ?
+- Does Java HashMap support perfect hashing?
+
+### Lists
+- Can you put primitive types to List? Why?
+- When would you use ArrayList and when LinkedList?
+
+#### ArrayList 
+- What data structure is used for array list.
+- What is default size of underlying array if we don't specify initial size of ArrayList?
+- Is it good idea to define initial size of ArrayList and why?
+- What happens if underlying array gets filled up to much? ( ensureCapacity() )
+- What specific interface ArrayList implements that LinkedList does not?
+- What means that ArrayList implements RandomAccess?
+- Big O for each ArrayList methods.
+- Is ArrayList ThreadSafe?
+- What other data structure would you use in place of ArrayList in multithreaded environment?
+
+- Types of queues in Java
 - FIFO vs LIFO
-- hashcode/equals contract
-- synchronized map vs ConcurrentHashMap
-- how hashmap works? Buckets, how data is distributed in buckets
+- Hashcode/equals contract
+- Synchronized map vs ConcurrentHashMap
 - Big O for collections (Hash, Tree, Linked, Array based)
 - When to use which types of collections? (hash vs tree vs linked)
 - Map vs Set vs Lists vs Queues
-- What happens when you put something to map?
 - What is EnumSet?
 - What needs to be implemented to make i.e. tree based working (Comparable interface)
 - What needs to be implemented to make hash based collection working (hashcode/equals)
@@ -93,6 +152,8 @@
 - How to make a good key in Map?
 
 # JVM
+- How many thread simple program that prints "Hello world" to console has?
+- Java memory model.
 
 ## Garbage Collector
 - What is full/major/minor GC? How to avoid full GC?

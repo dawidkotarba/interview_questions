@@ -11,7 +11,7 @@
 - Describe the concept of HeapSort
 
 ## Security
-- symmetric vs assymetric encryption
+- symmetric vs asymmetric encryption
 
 ## Other
 - What is a difference between framework and library?
