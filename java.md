@@ -101,7 +101,12 @@
 ## Collections
 - Draw diagram of Java collections.
 
-### HashMap
+### Maps
+* How does Map interface correspond with Collection interface?
+* Map vs Switch statement performance?
+* Would you use Switch with String or Map instead?
+
+#### HashMap
 - What is HashMap initial size?
 - How is initial size calculated. Why is bit-shift preferred over modulo for calculations like this?
 - What is HashMap loadFactor?
@@ -115,12 +120,14 @@
 - Where are nulls stored in HashMap ( with index )?
 - What data structure is HashMap build upon?
 - Describe what rehashing is and when it occurs.
-- What data retrieval speed you would get from JDK 7 HashMap if someone implemented malicious hashcode that returns same value for all items put to map. Would such thing even work? If yes why if no why?
- What about JDK 8+ ?
+- What data retrieval speed you would get from JDK 7 HashMap if someone implemented malicious hashcode that returns same value for all items put to map. Would such thing even work? If yes why if no why? What about JDK 8+ ?
 - Does Java HashMap support perfect hashing?
 
-### ArrayList 
-- Can you put primitive types to ArrayList? Why?
+### Lists
+- Can you put primitive types to List? Why?
+- When would you use ArrayList and when LinkedList?
+
+#### ArrayList 
 - What data structure is used for array list.
 - What is default size of underlying array if we don't specify initial size of ArrayList?
 - Is it good idea to define initial size of ArrayList and why?
@@ -145,6 +152,8 @@
 - How to make a good key in Map?
 
 # JVM
+- How many thread simple program that prints "Hello world" to console has?
+- Java memory model.
 
 ## Garbage Collector
 - What is full/major/minor GC? How to avoid full GC?
