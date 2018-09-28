@@ -13,3 +13,8 @@
 - What is "use strict" directive?
 - Define an arrow function
 - How can you change the context of called function?
+
+# AngularJS / Angular
+- Is it a good or bad practice to use AngularJS together with jQuery?
+- How would you implement application-wide exception handling in your Angular / AngularJS app?
+- List some tools for testing AngularJS applications? 

@@ -18,3 +18,6 @@
 ## Continuous Deployment
 - What techniques do you know to make CD effective? (feature switches etc.)
 
+## SDLC
+- Could you pelase describe how SDLC from design phase to deployment looks like in your current project? Do you use any tool for design and documentation?
+

@@ -18,3 +18,7 @@
 
 # Spring MVC
 - What is the relation between a JSP page and a servlet?
+
+# Spring Boot
+- Describe what application servers are shipped with Spring Boot. What are advantages of them?
+
