@@ -1,22 +1,11 @@
 # Java
 
-## Practical tasks:
-
-### Basic tasks:
-
-* Implement custom Stack / List / Queue.
-* Implement custom Stack / List / Queue using pure TDD.
-* Implement Stack / List / Queue methods using only recursion. 
-* Fibonacci recursive, iterative, stream.
-* Factorial recursive, iterative, stream.
-* Get rid of instanceOf() from code sample.
-* Reverse string recursive, iterative, stream.
-* Reverse array recursive, iterative, stream.
-
-### Multithreading tasks:
-
-* Implement good singleton ( with serialization / classloading and instantiation problems solved ).
-* Implement double check idiom.
+## Practical tasks: 
+- Fibonacci recursive, iterative, stream.
+- Factorial recursive, iterative, stream.
+- Get rid of instanceOf() from code sample.
+- Reverse string recursive, iterative, stream.
+- Reverse array recursive, iterative, stream.
 
 ## Core
 - Describe what is the meaning of following keywords : protected,  private, public, no keyword.
@@ -77,14 +66,14 @@
 - synchronized based on method, object, class etc. Pros/Cons of each solution
 - How Atomic types work?
 - How volatile works?
-- How to create and start a new thread? 
+- How to create and start a new thread?
 - Runnable vs Callable
 - Describe Features
 - What is the difference between synchronization of static and non-static methods?
 - What does it mean that lock is reentrant?
 - Write a code to make a deadlock
 - How to debug deadlocks?
-- What is thread dump? How to analyze that?
+- What is thread dump? How to analyze that? What tools you can use to analyze a thread dump?
 - What does it mean that synchronized methods are reentrant synchronization?
 - What is the difference between wait and sleep?
 - What is POJO and where we should use it?
@@ -97,6 +86,10 @@
 - What is a critical section?
 - What is thread pools? What framework have you used to build such thread pool?
 - Why Concurrency Utilities were introduced? What data structures it implements? What other mechanisms it provides?
+
+### Multithreading tasks:
+- Implement good singleton (with serialization / classloading and instantiation problems solved).
+- Implement double check idiom.
 
 ## Collections
 - Draw diagram of Java collections.
@@ -122,6 +115,9 @@
 - Describe what rehashing is and when it occurs.
 - What data retrieval speed you would get from JDK 7 HashMap if someone implemented malicious hashcode that returns same value for all items put to map. Would such thing even work? If yes why if no why? What about JDK 8+ ?
 - Does Java HashMap support perfect hashing?
+- What needs to be implemented to make hash based collection working (hashcode/equals)
+- Synchronized map vs ConcurrentHashMap
+- How to make a good key in Map?
 
 ### Lists
 - Can you put primitive types to List? Why?
@@ -135,25 +131,29 @@
 - What specific interface ArrayList implements that LinkedList does not?
 - What means that ArrayList implements RandomAccess?
 - Big O for each ArrayList methods.
-- Is ArrayList ThreadSafe?
+- Is ArrayList thred safe?
 - What other data structure would you use in place of ArrayList in multithreaded environment?
+- How many thread simple program that prints "Hello world" to console has?
 
+### Queues
 - Types of queues in Java
+
+### Others
 - FIFO vs LIFO
-- Hashcode/equals contract
-- Synchronized map vs ConcurrentHashMap
 - Big O for collections (Hash, Tree, Linked, Array based)
 - When to use which types of collections? (hash vs tree vs linked)
 - Map vs Set vs Lists vs Queues
 - What is EnumSet?
 - What needs to be implemented to make i.e. tree based working (Comparable interface)
-- What needs to be implemented to make hash based collection working (hashcode/equals)
 - PECS - when to use super, extends. What limitations they have? (i.e. putting/getting from collections, cast required etc.)
-- How to make a good key in Map?
+
+### Collections - practial tasks:
+- Implement custom Stack / List / Queue.
+- Implement custom Stack / List / Queue using pure TDD.
+- Implement Stack / List / Queue methods using only recursion.
 
 # JVM
-- How many thread simple program that prints "Hello world" to console has?
-- Java memory model.
+- Java memory model (heap vs stack, young generation vs old generation, metaspace etc.)
 
 ## Garbage Collector
 - What is full/major/minor GC? How to avoid full GC?
@@ -184,7 +184,6 @@
 # JMX
 - What is JMX?
 - Is JMX one way or two way communication protocol (read, write or read & write)?
-
 
 # JMS
 - Topic vs Queue in JMS
