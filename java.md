@@ -18,7 +18,7 @@
 - What do we gain from class immutability?
 - What is defensive copying
 - Hard, soft, weak, phantom references. What are differences? How to make a cache from weak references? What can be used instead of finalize method?
-- How to make a memory leak in Java?
+- How to make a memory leak in Java? How to analyze memory leaks in Java? What tools you can use?
 - What is new in JDK7/8/9/10...?
 - Checked vs unchecked exceptions. Can we catch Error? How to make a good API?
 - Exceptions translation
@@ -36,7 +36,9 @@
 - What is try-with-resources in Java7?
 - What does it mean that a stream from Java8 is lazy?
 - For loop performance vs Stream performance for 100 items.
-- Clone in Java (Cloneable interface, clone() method)
+- How to analyze the app performance? What tools you can use?
+- What good pratices for benchmarking in Java do you know?
+- Clone in Java (Cloneable interface, clone() method). How to implement a clone mechanism properly? Shall we use that at all?
 - How to serialize object in Java? What is versionUID?
 - What is "transient" keyword?
 - Can Java return a covariant type?
@@ -154,6 +156,7 @@
 
 # JVM
 - Java memory model (heap vs stack, young generation vs old generation, metaspace etc.)
+- What flags do you know for tuning JVM/Garbage Collector?
 
 ## Garbage Collector
 - What is full/major/minor GC? How to avoid full GC?
