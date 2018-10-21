@@ -4,6 +4,7 @@
 - What types or relations between entities do you know? What are differences between uni-directional and bi-directional relations?
 - Types of inheritance (table per class, table for hierarchy with discriminator column, joined tables etc.). Performance and data consistency implications of those strategies.
 - What is JPQL? What is Criteria API?
+- What is HQL? What are pros/cons of using HQL?
 - What is linking table? When it is created?
 - Which types of relations require a linking table? In which relations it is possible to avoid the linking table creation and where it is unavoidable?
 - What is N+1 problem and how to solve that (batch, fetch join)?
