@@ -1,11 +1,25 @@
 # Java
 
-## Practical tasks: 
+## Practical tasks:
 - Fibonacci recursive, iterative, stream.
 - Factorial recursive, iterative, stream.
 - Get rid of instanceOf() from code sample.
 - Reverse string recursive, iterative, stream.
 - Reverse array recursive, iterative, stream.
+
+### Basic tasks:
+* Implement custom Stack / List / Queue.
+* Implement custom Stack / List / Queue using pure TDD.
+* Implement Stack / List / Queue methods using only recursion.
+* Fibonacci recursive, iterative, stream.
+* Factorial recursive, iterative, stream.
+* Get rid of instanceOf() from code sample.
+* Reverse string recursive, iterative, stream.
+* Reverse array recursive, iterative, stream.
+
+### Multithreading tasks:
+* Implement good singleton ( with serialization / classloading and instantiation problems solved ).
+* Implement double check idiom.
 
 ## Core
 - Describe what is the meaning of following keywords : protected,  private, public, no keyword.
@@ -88,6 +102,7 @@
 - What is a critical section?
 - What is thread pools? What framework have you used to build such thread pool?
 - Why Concurrency Utilities were introduced? What data structures it implements? What other mechanisms it provides?
+- What thread safe structures do you know in Java?
 
 ### Multithreading tasks:
 - Implement good singleton (with serialization / classloading and instantiation problems solved).
@@ -124,8 +139,9 @@
 ### Lists
 - Can you put primitive types to List? Why?
 - When would you use ArrayList and when LinkedList?
+- How can we check whether the LinkedList has a loop?
 
-#### ArrayList 
+#### ArrayList
 - What data structure is used for array list.
 - What is default size of underlying array if we don't specify initial size of ArrayList?
 - Is it good idea to define initial size of ArrayList and why?
@@ -134,6 +150,7 @@
 - What means that ArrayList implements RandomAccess?
 - Big O for each ArrayList methods.
 - Is ArrayList thred safe?
+- Is ArrayList thread safe?
 - What other data structure would you use in place of ArrayList in multithreaded environment?
 - How many thread simple program that prints "Hello world" to console has?
 
@@ -157,6 +174,9 @@
 # JVM
 - Java memory model (heap vs stack, young generation vs old generation, metaspace etc.)
 - What flags do you know for tuning JVM/Garbage Collector?
+- How many thread simple program that prints "Hello world" to console has?
+- Describe Java memory model
+- How can we measure performance of the application? What tools do you know for such purpose?
 
 ## Garbage Collector
 - What is full/major/minor GC? How to avoid full GC?
@@ -176,9 +196,9 @@
 - What is "Stop the world" in GC? When it is run?
 - What is memory fragmentation and why this can effect JVM-based applications performance or possibility to work?
 - If JVM cannot allocate memory for big collection of data but we have more than enough memory what can be an issue on level of operation system that we can expect?
-- How we can bypass memory limitations of JVM using JNI interface? Why we can do that?
+- How to bypass memory limitations of JVM using JNI interface? Why we can do that?
 - How you will secure JVM application from perspective of performance, when you're developing socket application?
-- How we can create a second instance of Singleton object?
+- How to create a second instance of a singleton object?
 
 # Libraries
 - How can we provide logging mechanisms inside Java application? What logging frameworks do you know?
@@ -190,4 +210,3 @@
 
 # JMS
 - Topic vs Queue in JMS
-
