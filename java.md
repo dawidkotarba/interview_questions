@@ -8,18 +8,18 @@
 - Reverse array recursive, iterative, stream.
 
 ### Basic tasks:
-* Implement custom Stack / List / Queue.
-* Implement custom Stack / List / Queue using pure TDD.
-* Implement Stack / List / Queue methods using only recursion.
-* Fibonacci recursive, iterative, stream.
-* Factorial recursive, iterative, stream.
-* Get rid of instanceOf() from code sample.
-* Reverse string recursive, iterative, stream.
-* Reverse array recursive, iterative, stream.
+- Implement custom Stack / List / Queue.
+- Implement custom Stack / List / Queue using pure TDD.
+- Implement Stack / List / Queue methods using only recursion.
+- Fibonacci recursive, iterative, stream.
+- Factorial recursive, iterative, stream.
+- Get rid of instanceOf() from code sample.
+- Reverse string recursive, iterative, stream.
+- Reverse array recursive, iterative, stream.
 
 ### Multithreading tasks:
-* Implement good singleton ( with serialization / classloading and instantiation problems solved ).
-* Implement double check idiom.
+- Implement good singleton ( with serialization / classloading and instantiation problems solved ).
+- Implement double check idiom.
 
 ## Core
 - Describe what is the meaning of following keywords : protected,  private, public, no keyword.
@@ -30,7 +30,7 @@
 - What is jaxb? What tools (i.e wsimport) do you know?
 - How to make an object immutable?
 - What do we gain from class immutability?
-- What is defensive copying
+- What is defensive copying?
 - Hard, soft, weak, phantom references. What are differences? How to make a cache from weak references? What can be used instead of finalize method?
 - How to make a memory leak in Java? How to analyze memory leaks in Java? What tools you can use?
 - What is new in JDK7/8/9/10...?
