@@ -1,6 +1,7 @@
 # SQL
 - What is a SQL injection? How to prevent?
 - Types of joins (left, right, inner, full)
+- What is the difference between LEFT INNER JOIN and LEFT OUTER JOIN?
 - What is union? Union distinct
 - What is index in database?
 - What data structures a db index can be based on?
