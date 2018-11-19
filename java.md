@@ -33,7 +33,7 @@
 - What is defensive copying?
 - Hard, soft, weak, phantom references. What are differences? How to make a cache from weak references? What can be used instead of finalize method?
 - How to make a memory leak in Java? How to analyze memory leaks in Java? What tools you can use?
-- What is new in JDK7/8/9/10...?
+- What is new in JDK7/8/9/10...? [Answer](answers/java/java_version_comparison.md)
 - Checked vs unchecked exceptions. Can we catch Error? How to make a good API?
 - Exceptions translation
 - Overloading vs overriding vs hiding
