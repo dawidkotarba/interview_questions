@@ -1,6 +1,3 @@
-# General
-- How DispatcherServlet, implemented in Spring Framework works?
-
 # Spring DI
 - Component types (Service, Controller, Repository, etc.)
 - JDK proxy vs CGLib proxy vs AspectJ proxy
@@ -19,6 +16,8 @@
 
 # Spring MVC
 - What is the relation between a JSP page and a servlet?
+- Can we write a multithreading code in servlet? Do we need to synchronize fields in a servlet?
+- What is a dispatcher servlet? Describe the general architecture of Spring MVC.
 
 # Spring Boot
-- Describe what application servers are shipped with Spring Boot. What are advantages of them?
+- Describe what application servers are shipped with Spring Boot (or what servers we can use for). What are advantages of them?
