@@ -1,4 +1,4 @@
-# recruitment_questions
+# Interview questions
 
 Recruitment questions I (or colleagues ;)) heard/was asked during interviews.
 
