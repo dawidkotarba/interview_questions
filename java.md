@@ -81,7 +81,7 @@
 - What methods should be overridden in HttpServlet, what can we tell about thread safety of fields in servlet?
 - java.util.concurrent -> CountDownLatch, Read/Write locks, Atomic types etc.
 - synchronized based on method, object, class etc. Pros/Cons of each solution
-- How Atomic types work?
+- How Atomic types work? What is CAS? [Answer](answers/java/java_atomic_types.md)
 - How volatile works?
 - How to create and start a new thread?
 - Runnable vs Callable
