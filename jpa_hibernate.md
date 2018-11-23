@@ -8,7 +8,7 @@
 - What is linking table? When it is created?
 - Which types of relations require a linking table? In which relations it is possible to avoid the linking table creation and where it is unavoidable?
 - What is N+1 problem and how to solve that (batch, fetch join)?
-- Pessimistic locking vs optimistic locking
+- What is the difference between optimistic and pessimistic locking? [Answer](answers/jpa/jpa_optimistic_vs_pessimistic_locking.md)
 - ACID, Transaction isolation, propagation in JEE/Spring
 - What transaction phenomenas do you know? How isolation levels are preventing from those phenomenas to occur?
 - What is locked during each type of isolation?
