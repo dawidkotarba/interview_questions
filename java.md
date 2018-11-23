@@ -103,7 +103,7 @@
 - What is thread pools? What framework have you used to build such thread pool?
 - Why Concurrency Utilities were introduced? What data structures it implements? What other mechanisms it provides?
 - What thread safe structures do you know in Java?
-- What concurrency patterns / good practices do you know?
+- What concurrency patterns / good practices do you know [Answer] (answers/java/java_concurrency_good_practices.md)
 
 ### Multithreading tasks:
 - Implement good singleton (with serialization / classloading and instantiation problems solved).
