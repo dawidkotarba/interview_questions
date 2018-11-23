@@ -74,7 +74,7 @@
 
 ## Multithreading
 - What is deadlock, race-condition, data-race, livelock, starvation?
-- What is the thread lifecycle (states) in JVM?
+- What is the thread lifecycle (states) in JVM? [Answer](answers/java/java_thread_lifecycle.md)
 - What is double-checked-locking? How to make it right?
 - How to implement singleton in the safe way? Enums as singletons.
 - i++ How many operations must jvm perform in such line?
