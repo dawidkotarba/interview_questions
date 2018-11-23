@@ -9,6 +9,7 @@
 - What it means that algorithm is recursive? What kind of tasks can be solved by recursive algorithms?
 - What is Djikstra algorithm and where you can use it?
 - Describe the concept of HeapSort
+- What indexing solutions do you know?
 
 ## Security
 - symmetric vs asymmetric encryption
