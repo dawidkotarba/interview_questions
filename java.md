@@ -22,7 +22,8 @@
 - Implement double check idiom.
 
 ## Core
-- Describe what is the meaning of following keywords : protected,  private, public, no keyword.
+- what primitive types do you know? What is the size of each? [Answer](answers/java/java_primitive_types.md)
+- Describe what is the meaning of following keywords: protected,  private, public, no keyword.
 - What is the difference between override and overload + static and runtime polymorphism.
 - How can you prevent class from being subclassed?
 - Transient keyword, what is it used for
