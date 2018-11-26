@@ -12,7 +12,7 @@
 - ACID, Transaction isolation, propagation in JEE/Spring
 - What transaction phenomenas do you know? How isolation levels are preventing from those phenomenas to occur?
 - What is locked during each type of isolation?
-- Cascading and related dangers (i.e. many to many relations and cascading of all, remove)
+- What cascade types do you know? Why we have to be careful with cascading? [Answer](answers/jpa/jpa_cascading.md)
 - List, Set in relations
 - How to make a good hashcode for entity?
 - Lazy fetching of collections. How does it work? How it relates to session?
