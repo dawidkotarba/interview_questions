@@ -1,3 +1,6 @@
+# General
+- What is more heavy for the database? Reads or writes? What needs to be considered to answer such question?
+
 # SQL
 - What is a SQL injection? How to prevent?
 - Types of joins (left, right, inner, full)
@@ -33,6 +36,11 @@
 - Describe how SQL statement is processed by database (Parser -> Optimizer -> Executor)
 - How is SQL statement optimized?
 - Are execution plans cached in databases?
+- What data structures are used in indexes? (trees, hashes etc.)
 
 # Relational DB vs OOO
-- How can you map objects with inheritance to tables? What are the pros/cons of each approach? (Compare approaches from hibernate inheritance strategies)
+- How can you map objects with inheritance to tables? What are the pros/cons of each approach? (Compare approaches from hibernate inheritance strategies). What is a discriminator column?
+
+# Architecture
+- What algorithms do you know that allow to evenly distribute load between shards? (i.e. hash-based)
+- How can we add another shard and evenly distribute data over there? (without shutting down entire cluster)
