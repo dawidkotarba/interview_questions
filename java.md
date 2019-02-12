@@ -67,6 +67,7 @@
 - Is it a good practice to use "Optional" as a method argument? How about serialization?
 - What do you think about returning a Stream from a method?
 - There is set of users. Each user contains set of languages he speaks. How to get all languages spoken by all users? (stream with flatmap and distincts)
+- Fields in lambdas are effective final. How we can bypass that to i.e. increment a value inside (use objects like i.e. AtomicInteger to increment)
 
 ## Generics
 - What is "type erasure"? Why it was introduced? What version of Java introduced generics?
