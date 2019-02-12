@@ -50,6 +50,7 @@
 - Boxing, Unboxing, Autoboxing - performance implications
 - What is try-with-resources in Java7?
 - What does it mean that a stream from Java8 is lazy?
+- What are terminal vs non-terminal operations in streams? What are types returned from such operations?
 - For loop performance vs Stream performance for 100 items.
 - How to analyze the app performance? What tools you can use?
 - What good pratices for benchmarking in Java do you know?
@@ -68,10 +69,12 @@
 - There is set of users. Each user contains set of languages he speaks. How to get all languages spoken by all users? (stream with flatmap and distincts)
 
 ## Generics
-- What is type erasure?
+- What is "type erasure"? Why it was introduced? What version of Java introduced generics?
 - PECS - when to use super, extends. What limitations they have? (i.e. putting/getting from collections, cast required etc.)
 - invariance vs covariance vs contravariance
 - Are arrays covariant?
+- What is the difference between i.e. List<?> vs List<Object>? What is the purpose of the wildcard here? Where such construct can be used?
+- Can we have generic fields in a non-generic class?
 
 ## Multithreading
 - What is deadlock, race-condition, data-race, livelock, starvation?
@@ -80,7 +83,7 @@
 - How to implement singleton in the safe way? Enums as singletons.
 - i++ How many operations must jvm perform in such line?
 - What methods should be overridden in HttpServlet, what can we tell about thread safety of fields in servlet?
-- java.util.concurrent -> CountDownLatch, Read/Write locks, Atomic types etc.
+- java.util.concurrent -> CountDownLatch, Semaphores, Read/Write locks, Atomic types etc.
 - synchronized based on method, object, class etc. Pros/Cons of each solution
 - How Atomic types work? What is CAS? [Answer](answers/java/java_atomic_types.md)
 - How volatile works?
@@ -132,6 +135,7 @@
 - How is item retrieved when get() is called.
 - Where are nulls stored in HashMap ( with index )?
 - What data structure is HashMap build upon?
+- What are optimisations for storing items in HashMap? (i.e. LinkedList becomes a Tree if object has Comparable implemented)
 - Describe what rehashing is and when it occurs.
 - What data retrieval speed you would get from JDK 7 HashMap if someone implemented malicious hashcode that returns same value for all items put to map. Would such thing even work? If yes why if no why? What about JDK 8+ ?
 - Does Java HashMap support perfect hashing?
@@ -153,7 +157,6 @@
 - What means that ArrayList implements RandomAccess?
 - Big O for each ArrayList methods.
 - Is ArrayList thred safe?
-- Is ArrayList thread safe?
 - What other data structure would you use in place of ArrayList in multithreaded environment?
 - How many thread simple program that prints "Hello world" to console has?
 
@@ -166,7 +169,7 @@
 - When to use which types of collections? (hash vs tree vs linked)
 - Map vs Set vs Lists vs Queues
 - What is EnumSet?
-- What needs to be implemented to make i.e. tree based working (Comparable interface)
+- What needs to be implemented to make i.e. tree based collection working (Comparable interface)
 - PECS - when to use super, extends. What limitations they have? (i.e. putting/getting from collections, cast required etc.)
 
 ### Collections - practial tasks:
