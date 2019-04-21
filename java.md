@@ -17,10 +17,6 @@
 - Reverse string recursive, iterative, stream.
 - Reverse array recursive, iterative, stream.
 
-### Multithreading tasks:
-- Implement good singleton ( with serialization / classloading and instantiation problems solved ).
-- Implement double check idiom.
-
 ## Core
 - what primitive types do you know? What is the size of each? [Answer](answers/java/java_primitive_types.md)
 - Describe what is the meaning of following keywords: protected,  private, public, no keyword.
