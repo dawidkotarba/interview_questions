@@ -1,4 +1,0 @@
-- New -> a thread is created but not started. Just after thread creation
-- Runnable -> a thread is running, after start() method gets invoked, controlled by a thread scheduler
-- Blocked / Waiting-> a thread is blocked by monitor lock, waiting to get notified (i.e. wait/notify) to resume the work
-- Terminated

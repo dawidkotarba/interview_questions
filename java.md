@@ -18,7 +18,7 @@
 - Reverse array recursive, iterative, stream.
 
 ## Core
-- what primitive types do you know? What is the size of each? [Answer](answers/java/java_primitive_types.md)
+- what primitive types do you know? What is the size of each?
 - Describe what is the meaning of following keywords: protected,  private, public, no keyword.
 - What is the difference between override and overload + static and runtime polymorphism.
 - How can you prevent class from being subclassed?
@@ -30,7 +30,7 @@
 - What is defensive copying?
 - Hard, soft, weak, phantom references. What are differences? How to make a cache from weak references? What can be used instead of finalize method?
 - How to make a memory leak in Java? How to analyze memory leaks in Java? What tools you can use?
-- What is new in JDK7/8/9/10...? [Answer](answers/java/java_versions_comparison.md)
+- What is new in JDK7/8/9/10...?
 - Checked vs unchecked exceptions. Can we catch Error? How to make a good API?
 - Exceptions translation
 - Overloading vs overriding vs hiding
@@ -75,14 +75,14 @@
 
 ## Multithreading
 - What is deadlock, race-condition, data-race, livelock, starvation?
-- What is the thread lifecycle (states) in JVM? [Answer](answers/java/java_thread_lifecycle.md)
+- What is the thread lifecycle (states) in JVM?)
 - What is double-checked-locking? How to make it right?
 - How to implement singleton in the safe way? Enums as singletons.
 - i++ How many operations must jvm perform in such line?
 - What methods should be overridden in HttpServlet, what can we tell about thread safety of fields in servlet?
 - java.util.concurrent -> CountDownLatch, Semaphores, Read/Write locks, Atomic types etc.
 - synchronized based on method, object, class etc. Pros/Cons of each solution
-- How Atomic types work? What is CAS? [Answer](answers/java/java_atomic_types.md)
+- How Atomic types work? What is CAS?
 - How volatile works?
 - How to create and start a new thread?
 - Runnable vs Callable
@@ -105,7 +105,7 @@
 - What is thread pools? What framework have you used to build such thread pool?
 - Why Concurrency Utilities were introduced? What data structures it implements? What other mechanisms it provides?
 - What thread safe structures do you know in Java?
-- What concurrency patterns / good practices do you know? [Answer](answers/java/java_concurrency_good_practices.md)
+- What concurrency patterns / good practices do you know?
 
 ### Multithreading tasks:
 - Implement good singleton (with serialization / classloading and instantiation problems solved).
