@@ -1,5 +1,11 @@
 # Web
 
+## Java EE
+- What is a difference between stateless and stateful beans?
+- What are message-driven beans?
+- What is EJB?
+- How we can inject beans?
+
 ## General
 - HTTP methods vs CRUD
 - What are the differences between SOAP and REST webservices?
@@ -34,11 +40,16 @@
 - What is SOAP envelope?
 - What part of SOAP envelope do we encrypt?
 
-## JSF/JSP
+## JSF/JSP/Servlets
 - How can you describe JSF technology?
 - What is JSP (Java Servlet Pages) technology?
 - What are pros and cons using both JSF and JSP?
 - What is JSF EL (Expression Language)?
 - What is the relation between a JSP page and a servlet?
 - Can we write a multithreading code in servlet? Do we need to synchronize fields in a servlet?
-
+- What is a lifecycle of a servlet? (init -> service -> destroy). What is a service() method used for?
+- How to create a servlet? (extends HTTPServlet, implements Servlet)
+- How we an register a servlet? (i.e. web.xml, @WebServlet annotation)
+- What are impliit objects in JSP? What we can use them for? (i.e. pageContext, out, request, response)
+- How filters work? How we can register them? (web.xml, @WebFilter annotation). What is the purpose?
+- What is a lifecycle of filters? (init -> doFilter -> destroy)
