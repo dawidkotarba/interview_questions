@@ -7,7 +7,7 @@
 - Reverse string recursive, iterative, stream.
 - Reverse array recursive, iterative, stream.
 
-### Basic tasks:
+## Basic tasks:
 - Implement custom Stack / List / Queue.
 - Implement custom Stack / List / Queue using pure TDD.
 - Implement Stack / List / Queue methods using only recursion.
@@ -18,13 +18,12 @@
 - Reverse array recursive, iterative, stream.
 
 ## Core
+- How can we construct a new object in Java (i.e. new operator, cloning, deserialization, reflection -> Class.forName())f
 - what primitive types do you know? What is the size of each?
 - Describe what is the meaning of following keywords: protected,  private, public, no keyword.
 - What is the difference between override and overload + static and runtime polymorphism.
 - How can you prevent class from being subclassed?
 - Transient keyword, what is it used for
-- Sax vs DOM XMl parsing. What is the difference with the approach?
-- What is jaxb? What tools (i.e wsimport) do you know?
 - How to make an object immutable?
 - What do we gain from class immutability?
 - What is defensive copying?
@@ -54,7 +53,7 @@
 - How to serialize object in Java? What is versionUID?
 - What is "transient" keyword?
 - Can Java return a covariant type?
-- String interning in Java. intern() method
+- String in in Java. intern() method. Security of a string pool
 - How many compilers are there in the JDK distribution?
 - What is immutable object pattern? Is it used in java (JDK)? Describe immutable types
 - What design patterns are used in JDK?
@@ -64,6 +63,7 @@
 - What do you think about returning a Stream from a method?
 - There is set of users. Each user contains set of languages he speaks. How to get all languages spoken by all users? (stream with flatmap and distincts)
 - Fields in lambdas are effective final. How we can bypass that to i.e. increment a value inside (use objects like i.e. AtomicInteger to increment)
+- What is a classloader? What is a hierarchy of classloaders?
 
 ## Generics
 - What is "type erasure"? Why it was introduced? What version of Java introduced generics?
@@ -80,7 +80,7 @@
 - How to implement singleton in the safe way? Enums as singletons.
 - i++ How many operations must jvm perform in such line?
 - What methods should be overridden in HttpServlet, what can we tell about thread safety of fields in servlet?
-- java.util.concurrent -> CountDownLatch, Semaphores, Read/Write locks, Atomic types etc.
+- java.util.concurrent -> CountDownLatch, Semaphores, Read/Write locks (ReentrantLock, ReentrantReadWriteLock), Atomic types etc.
 - synchronized based on method, object, class etc. Pros/Cons of each solution
 - How Atomic types work? What is CAS?
 - How volatile works?
@@ -107,19 +107,19 @@
 - What thread safe structures do you know in Java?
 - What concurrency patterns / good practices do you know?
 
-### Multithreading tasks:
+## Multithreading tasks:
 - Implement good singleton (with serialization / classloading and instantiation problems solved).
 - Implement double check idiom.
 
 ## Collections
 - Draw diagram of Java collections.
 
-### Maps
-* How does Map interface correspond with Collection interface?
-* Map vs Switch statement performance?
-* Would you use Switch with String or Map instead?
+## Maps
+- How does Map interface correspond with Collection interface?
+- Map vs Switch statement performance?
+- Would you use Switch with String or Map instead?
 
-#### HashMap
+## HashMap
 - What is HashMap initial size?
 - How is initial size calculated. Why is bit-shift preferred over modulo for calculations like this?
 - What is HashMap loadFactor?
@@ -140,12 +140,12 @@
 - Synchronized map vs ConcurrentHashMap
 - How to make a good key in Map?
 
-### Lists
+## Lists
 - Can you put primitive types to List? Why?
 - When would you use ArrayList and when LinkedList?
 - How can we check whether the LinkedList has a loop?
 
-#### ArrayList
+## ArrayList
 - What data structure is used for array list.
 - What is default size of underlying array if we don't specify initial size of ArrayList?
 - Is it good idea to define initial size of ArrayList and why?
@@ -157,10 +157,10 @@
 - What other data structure would you use in place of ArrayList in multithreaded environment?
 - How many thread simple program that prints "Hello world" to console has?
 
-### Queues
+## Queues
 - Types of queues in Java
 
-### Others
+## Others
 - FIFO vs LIFO
 - Big O for collections (Hash, Tree, Linked, Array based)
 - When to use which types of collections? (hash vs tree vs linked)
@@ -169,19 +169,18 @@
 - What needs to be implemented to make i.e. tree based collection working (Comparable interface)
 - PECS - when to use super, extends. What limitations they have? (i.e. putting/getting from collections, cast required etc.)
 
-### Collections - practial tasks:
+## Collections - practial tasks:
 - Implement custom Stack / List / Queue.
 - Implement custom Stack / List / Queue using pure TDD.
 - Implement Stack / List / Queue methods using only recursion.
 
-# JVM
+## JVM, Garbage Collector, JIT
 - Java memory model (heap vs stack, young generation vs old generation, metaspace etc.)
 - What flags do you know for tuning JVM/Garbage Collector?
 - How many thread simple program that prints "Hello world" to console has?
 - Describe Java memory model
 - How can we measure performance of the application? What tools do you know for such purpose?
-
-## Garbage Collector
+- Difference between PermGen and Metaspace
 - What is full/major/minor GC? How to avoid full GC?
 - Young vs Old generation
 - How GC works? (root, phases etc.)
@@ -202,14 +201,24 @@
 - How to bypass memory limitations of JVM using JNI interface? Why we can do that?
 - How you will secure JVM application from perspective of performance, when you're developing socket application?
 - How to create a second instance of a singleton object?
+- What are the GC phases?
 
-# Libraries
+
+## Libraries
 - How can we provide logging mechanisms inside Java application? What logging frameworks do you know?
 - Why it's better to use logging frameworks instead of output to System.out?
 
-# JMX
+## JMX
 - What is JMX?
 - Is JMX one way or two way communication protocol (read, write or read & write)?
 
-# JMS
+## JMS
 - Topic vs Queue in JMS
+
+## XML, JAXB
+- Sax vs DOM vs JAXB in XML parsing. What is the difference with the approach?
+- What is JAXB? What tools (i.e wsimport) do you know?
+- How we convert Java object to XML? What are steps in JAXB marshalling?
+- How transient keyword works in JAXB (XmlTransient)?
+- What is XSLTs?
+- WHat is a difference between DTD and XML Schema?
