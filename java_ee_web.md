@@ -39,4 +39,6 @@
 - What is JSP (Java Servlet Pages) technology?
 - What are pros and cons using both JSF and JSP?
 - What is JSF EL (Expression Language)?
+- What is the relation between a JSP page and a servlet?
+- Can we write a multithreading code in servlet? Do we need to synchronize fields in a servlet?
 

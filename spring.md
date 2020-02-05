@@ -19,8 +19,6 @@
 - Transaction propagation in Spring
 
 # Spring MVC
-- What is the relation between a JSP page and a servlet?
-- Can we write a multithreading code in servlet? Do we need to synchronize fields in a servlet?
 - What is a dispatcher servlet? Describe the general architecture of Spring MVC.
 
 # Spring Boot

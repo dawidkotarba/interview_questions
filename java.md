@@ -94,6 +94,8 @@
 - What is thread dump? How to analyze that? What tools you can use to analyze a thread dump?
 - What does it mean that synchronized methods are reentrant synchronization?
 - What is the difference between wait and sleep?
+- wait/notify/notifyAll, sleep, yield - what are they for?
+- What happens to a thread when it sleeps? How and from where to call the wait method?
 - What is POJO and where we should use it?
 - What is JNI (Java Native Interface)?
 - What are thread pools? What framework have you used to build such thread pool?
