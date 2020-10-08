@@ -27,3 +27,5 @@
 - What is a a FetchStrategy? Which one is default?
 - If you need to extend existing User entity with last login time what data types would you use on Java and DB levels? What variants can be used?
 - Rewrite the query to remove table joining: "select tab_a.col_a from tab_a join tab_b on tab_a.fid=tab_b.id where tab_b.col_b is not null;"
+- What is a difference between load and get?
+- How can we define a PK in JPA/Hibernate?

@@ -5,6 +5,8 @@
 - What are message-driven beans?
 - What is EJB?
 - How we can inject beans?
+- Difference between Local and Remote interface
+- What is a Session (EJB) Context? How can we use that?
 
 ## General
 - HTTP methods vs CRUD
@@ -53,3 +55,9 @@
 - What are impliit objects in JSP? What we can use them for? (i.e. pageContext, out, request, response)
 - How filters work? How we can register them? (web.xml, @WebFilter annotation). What is the purpose?
 - What is a lifecycle of filters? (init -> doFilter -> destroy)
+
+## Security
+- What is a SQL injection and how to prevent that?
+- What is XSS (cross-site scripting) and how to prevent that?
+- How HTTPS works
+- HMAC, SHA, passwords and salt

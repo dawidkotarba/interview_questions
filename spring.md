@@ -17,6 +17,7 @@
 # Transactions in Spring
 - Transaction isolation in Spring. What phenomenas each isolation prevents?
 - Transaction propagation in Spring
+- How can we rollback a transaction?
 
 # Spring MVC
 - What is a dispatcher servlet? Describe the general architecture of Spring MVC.

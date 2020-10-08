@@ -18,6 +18,7 @@
 - Describe aggregate functions
 - What is a pagination of records?
 - What is a sequence?
+- READ_COMMITED vs READ_COMMITED_SNAPSHOT in MS SQL Server
 
 # NoSQL
 - What types of NoSQL databases do you know?
