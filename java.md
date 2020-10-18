@@ -53,7 +53,8 @@
 - How to serialize object in Java? What is versionUID?
 - What is "transient" keyword?
 - Can Java return a covariant type?
-- String in in Java. intern() method. Security of a string pool
+- String in in Java. intern() method. Security of a String pool
+- Can we extend a String?
 - How many compilers are there in the JDK distribution?
 - What is immutable object pattern? Is it used in java (JDK)? Describe immutable types
 - What design patterns are used in JDK?
@@ -64,6 +65,16 @@
 - There is set of users. Each user contains set of languages he speaks. How to get all languages spoken by all users? (stream with flatmap and distincts)
 - Fields in lambdas are effective final. How we can bypass that to i.e. increment a value inside (use objects like i.e. AtomicInteger to increment)
 - What is a classloader? What is a hierarchy of classloaders?
+- How to create an annotation?
+- Is it possible to have a final constructor and why?
+- Do we need to override hashcode if we override equals?
+- What is a ThreadLocal? Where can it be helpful?
+- What is a difference between Inner and nested class?
+- When we need a private constructor?
+- How can we make a XOR in Java?
+- How can we create a copy constructor?
+- What is a Dynamic Binding?
+- Explain when default methods in interfaces can be handy.
 
 ## Generics
 - What is "type erasure"? Why it was introduced? What version of Java introduced generics?
@@ -85,6 +96,7 @@
 - How Atomic types work? What is CAS?
 - How volatile works?
 - How to create and start a new thread?
+- How to stop a thread? (stop is deprecated)
 - Runnable vs Callable
 - Describe Features
 - What is the difference between synchronization of static and non-static methods?
@@ -120,6 +132,7 @@
 - How does Map interface correspond with Collection interface?
 - Map vs Switch statement performance?
 - Would you use Switch with String or Map instead?
+- What types can be used in switch (in different Java versions)?
 
 ## HashMap
 - What is HashMap initial size?
@@ -204,7 +217,7 @@
 - How you will secure JVM application from perspective of performance, when you're developing socket application?
 - How to create a second instance of a singleton object?
 - What are the GC phases?
-
+- What Garbage Collectors do you know? What are the main differnces between them?
 
 ## Libraries
 - How can we provide logging mechanisms inside Java application? What logging frameworks do you know?
