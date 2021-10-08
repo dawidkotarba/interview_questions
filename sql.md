@@ -1,7 +1,9 @@
-# General
+# SQL
+
+## General
 - What is more heavy for the database? Reads or writes? What needs to be considered to answer such question?
 
-# SQL
+## SQL
 - What is a SQL injection? How to prevent?
 - Types of joins (left, right, inner, full)
 - What is the difference between LEFT INNER JOIN and LEFT OUTER JOIN?
@@ -20,13 +22,13 @@
 - What is a sequence?
 - READ_COMMITED vs READ_COMMITED_SNAPSHOT in MS SQL Server
 
-# NoSQL
+## NoSQL
 - What types of NoSQL databases do you know?
 - When to use NoSQL database comparing to relational one?
 - How could you compare the schema definition in NoSQL comparing to relational databases?
-- what is the CAP theorem in distributed system?
+- What is the CAP theorem in distributed system?
 
-# Relational DB specific general questions:
+## Relational DB specific general questions:
 - What is syntax tree?
 - What is execution plan? How can we preview the execution plan?
 - What algorithms are used to calculate execution plan?
@@ -39,9 +41,9 @@
 - Are execution plans cached in databases?
 - What data structures are used in indexes? (trees, hashes etc.)
 
-# Relational DB vs OOO
+## Relational DB vs OOO
 - How can you map objects with inheritance to tables? What are the pros/cons of each approach? (Compare approaches from hibernate inheritance strategies). What is a discriminator column?
 
-# Architecture
+## Architecture
 - What algorithms do you know that allow to evenly distribute load between shards? (i.e. hash-based)
 - How can we add another shard and evenly distribute data over there? (without shutting down entire cluster)
