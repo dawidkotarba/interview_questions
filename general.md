@@ -12,7 +12,7 @@
 - What indexing solutions do you know?
 
 ## Security
-- symmetric vs asymmetric encryption
+- Symmetric vs asymmetric encryption
 
 ## Other
 - What is a difference between framework and library?

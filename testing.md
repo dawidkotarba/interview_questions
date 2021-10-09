@@ -1,7 +1,7 @@
 # Testing
 - TDD vs BDD
 - TDD cycle
-- whitebox vs blackbox testing
+- Whitebox vs blackbox testing
 - What in your opinion is a good unit test?
 - Types of tests: smoke, integration, unit, acceptance, itp.
 - What is the purpose of mocking?

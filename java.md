@@ -81,12 +81,12 @@
 - PECS - when to use super, extends. What limitations they have? (i.e. putting/getting from collections, cast required etc.)
 - invariance vs covariance vs contravariance
 - Are arrays covariant?
-- What is the difference between i.e. List<?> vs List<Object>? What is the purpose of the wildcard here? Where such construct can be used?
+- What is the difference between i.e. `List<?>` vs `List<Object>`? What is the purpose of the wildcard here? Where such construct can be used?
 - Can we have generic fields in a non-generic class?
 
 ## Multithreading
 - What is deadlock, race-condition, data-race, livelock, starvation?
-- What is the thread lifecycle (states) in JVM?)
+- What is the thread lifecycle (states) in JVM?
 - What is double-checked-locking? How to make it right?
 - How to implement singleton in the safe way? Enums as singletons.
 - i++ How many operations must jvm perform in such line?

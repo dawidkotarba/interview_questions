@@ -1,6 +1,8 @@
-# Javascript
-- hoisting in JS
-- prototyping in JS
+# Front-end
+
+## Javascript
+- Hoisting in JS
+- Prototyping in JS
 - What is a scope and how it works?
 - How to extend existing object and what dangers it has?
 - How to make an associative array?
@@ -16,15 +18,15 @@
 - How can we test and validate code in JS?
 - What is an even bubbling in JS?
 
-# AngularJS / Angular
+## AngularJS / Angular
 - Is it a good or bad practice to use AngularJS together with jQuery?
 - How would you implement application-wide exception handling in your Angular / AngularJS app?
 - List some tools for testing AngularJS applications?
 
-# React
+## React
 - State vs props
 - What is a component, reducer?
 - How do actions work in Redux?
 
-# CSS:
+## CSS:
 - What is "important" in CSS?

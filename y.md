@@ -1,4 +1,6 @@
-# Platform
+# Hybris
+
+## Platform
 - Describe a build system in Hybris? What does happen during build, init, update?
 - What type of interceptors do you know that work with model in Hybris?
 - Describe the event system in Hybris
@@ -8,7 +10,7 @@
 - Hybris provides a validation framework. How does it work?
 - Hybris uses Spring to create application/web contexts. Describe what level of contexts do we have in Hybris and what is the hierarchy of them.
 
-# Commerce
+## Commerce
 - What are catalogs in Hybris? Why do we need them? What types of catalogs do you know? What types are catalog-aware?
 - Describe the concept of add-ons? Why we need them?
 - Have you ever worked with order fulfillment? What steps are needed to modify the order fulfillment?
@@ -16,7 +18,7 @@
 - Hybris offers several "hooks" that you can use to perform a business logic. What type of hooks do you know?
 - Describe for what the Solr server is used. What are partial/full updates? Where the Solr is hit during browsing the storefront? What are Solr cores?
 
-# Not classified
+## Not classified
 1. What are the necessary software layers in a hybris application? (DAO, Service, Facade, Controller)?
 2. What do you use for populating data and converting between models and DTOs? (populator and converter)
 3. Do you call the populator directly in the code?
