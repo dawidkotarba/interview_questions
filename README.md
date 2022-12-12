@@ -1,10 +1,10 @@
 # Interview questions
 
-Recruitment questions I (or colleagues ;)) heard/were asked during interviews for a Java Dev position.
+Recruitment questions I (or colleagues ;)) heard/were asked during interviews for a Java Dev / Engineering Manager position.
 All pull requests with other questions are more than welcome :)
 
 - City: Krakow, Poland
-- Date: ~2016-2020
+- Date: ~2016-2022
 
 ### Sections:
 
@@ -17,10 +17,10 @@ All pull requests with other questions are more than welcome :)
 - [Java](java.md)
 - [Java EE](java_ee_web.md)
 - [JPA/Hibernate](jpa_hibernate.md)
-- [Leadership](leadership.md)
+- [Engineering Management / Leadership](engineering_management.md)
 - [Maven](maven.md)
 - [Soft skills](soft_skills.md)
 - [Spring](spring.md)
 - [SQL](sql.md)
 - [Testing](testing.md)
-- [Hybris](y.md)
+- [Hybris](hybris.md)
