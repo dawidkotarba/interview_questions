@@ -1,6 +1,7 @@
 # Engineering Management / Leadership
 
 ## General
+- What do you know about our company?
 - What is the role of an engineering manager?
 - What is your management style?
 - How long have you worked in a management role?
@@ -19,6 +20,9 @@
 - What do you do to grow as a manager and leader?
 - How do you stay up to date with the technology?
 - How hands-on do you prefer to be as an Engineering Manager (i.e. % of time coding)?
+- Are you involved in coding, design reviews, architecture, requirement analysis, etc.?
+- Tell me about the area/technology where you have the most to learn?
+- How to you see yourself in 5 years?
 
 ## Leadership
 - How would you lead a team through a difficult situation? Give an example from the past.
@@ -32,21 +36,26 @@
 - How do you approach performance reviews for your subordinates? How often are they needed in your opinion? How do you structure the feedback?
 - How do you establish ownership and accountability on your teams?
 - How do you delegate and manage multiple tasks and projects within a team?
+- What tasks do you delegate and what tasks do you assign? What is a difference between those two terms?
 - How would you ensure the shy introverted junior programmer understands what he has to do in the task?
 - What are, in your opinion, differences in leading small teams vs big ones?
 - How do you define goals for you and your subordinates (i.e. SMART, SMARTER etc.)
 - How do you motivate your team members?
-- What tasks do you delegate and what tasks do you assign? What is a difference between those two terms?
 - What is ideal team composition in your opinion?
 - How do you deal with low/high performers?
 - Have you ever trained/coached an engineer into a management/leadership role?
 - Give an example how you helped a team/colleague at work
+- Describe a situation you had to step up and take responsibility for others
 - How do you lead distributed teams? What are the pros/cons of such teams?
+- How would you organize a distributed engineering team (i.e. around the world)?
 - How do you manage prioritize tasks across your team?
 - How do you plan, develop and execute training programs for your team?
 - Describe a project that failed. What have you learned from that?
 - Your project is running behind. How would you communicate this to executives / other teams stakeholders? How would you handle this situation?
 - What tools do you use to effectively lead your team?
+- How do you collaborate with Tech Leads?
+- Describe a situation where you anticipated potential risks/challenges and developed preventive solutions
+
 
 ## Processes
 - How do you organize onboarding in your team(s)?
@@ -56,6 +65,8 @@
 - How do you organize your day / week?
 - How do you create reports for your projects?
 - How do you ensure you and your teams are up-to-date on company policies?
+- What best practices do you follow to ensure high quality of the code?
+- You got an old legacy system without tests. Your team needs to implement several big features. What would you do to ensure nothing is broken and the code delivered?
 
 ## Conflict management
 - How do you resolve conflicts in your Team?
@@ -89,6 +100,10 @@
 - Do you have experience with processes in a product development?
 - How do you ensure the quality of projects while staying within the budget?
 - How do you break down large and complex projects for your team? What tools do you use?
+- How do you ensure that projects run on schedule and budget?
+- How do you assess risk when initiating a new project?
+- How do you check for accuracy in projects you manage?
+- What was the largest/most challenging/complicated project you have executed?
 
 ## Hiring
 - How would you organize a hiring process?
@@ -99,7 +114,7 @@
 ## Roadmaps
 - What is the difference between a product and a release roadmap?
 - How do you prioritize things that go into roadmap from a product backlog?
+- Have you disagreed with product/project managers regarding task prioritization? How did you solve this?
 - Who is responsible for a roadmap in your current project?
 - How do you communicate changes in the roadmap to the stakeholders?
 - How do you present your roadmap and why (table, chart, etc.)?
-
