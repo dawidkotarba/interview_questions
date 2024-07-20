@@ -1,13 +1,15 @@
 # Java
 
-## Practical tasks:
+## Practical tasks
+
 - Fibonacci recursive, iterative, stream.
 - Factorial recursive, iterative, stream.
 - Get rid of instanceOf() from code sample.
 - Reverse string recursive, iterative, stream.
 - Reverse array recursive, iterative, stream.
 
-## Basic tasks:
+## Basic tasks
+
 - Implement custom Stack / List / Queue.
 - Implement custom Stack / List / Queue using pure TDD.
 - Implement Stack / List / Queue methods using only recursion.
@@ -18,6 +20,7 @@
 - Reverse array recursive, iterative, stream.
 
 ## Core
+
 - How can we construct a new object in Java (i.e. new operator, cloning, deserialization, reflection -> Class.forName())f
 - what primitive types do you know? What is the size of each?
 - Describe what is the meaning of following keywords: protected,  private, public, no keyword.
@@ -57,7 +60,7 @@
 - Can we extend a String?
 - How many compilers are there in the JDK distribution?
 - What is immutable object pattern? Is it used in java (JDK)? Describe immutable types
-- What design patterns are used in JDK?
+- What design patterns are used in JDK? (i.e. Decorator in I/O, Strategy in Comparators, Singleton while getting runtime, Builder in StringBuilder)
 - What methods are defined in Object class in Java?
 - There are two methods with same name - one takes the argument of Object, another one of String. Which one will be invoked if we pass null and why?
 - Is it a good practice to use "Optional" as a method argument? How about serialization?
@@ -77,6 +80,7 @@
 - Explain when default methods in interfaces can be handy.
 
 ## Generics
+
 - What is "type erasure"? Why it was introduced? What version of Java introduced generics?
 - PECS - when to use super, extends. What limitations they have? (i.e. putting/getting from collections, cast required etc.)
 - invariance vs covariance vs contravariance
@@ -85,6 +89,7 @@
 - Can we have generic fields in a non-generic class?
 
 ## Multithreading
+
 - What is deadlock, race-condition, data-race, livelock, starvation?
 - What is the thread lifecycle (states) in JVM?
 - What is double-checked-locking? How to make it right?
@@ -121,20 +126,24 @@
 - What thread safe structures do you know in Java?
 - What concurrency patterns / good practices do you know?
 
-## Multithreading tasks:
-- Implement good singleton (with serialization / classloading and instantiation problems solved).
+## Multithreading tasks
+
+- Implement a good singleton (with serialization / classloading and instantiation problems solved).
 - Implement double check idiom.
 
 ## Collections
+
 - Draw diagram of Java collections.
 
 ## Maps
+
 - How does Map interface correspond with Collection interface?
 - Map vs Switch statement performance?
 - Would you use Switch with String or Map instead?
 - What types can be used in switch (in different Java versions)?
 
 ## HashMap
+
 - What is HashMap initial size?
 - How is initial size calculated. Why is bit-shift preferred over modulo for calculations like this?
 - What is HashMap loadFactor?
@@ -156,11 +165,13 @@
 - How to make a good key in Map?
 
 ## Lists
+
 - Can you put primitive types to List? Why?
 - When would you use ArrayList and when LinkedList?
 - How can we check whether the LinkedList has a loop?
 
 ## ArrayList
+
 - What data structure is used for array list.
 - What is default size of underlying array if we don't specify initial size of ArrayList?
 - Is it good idea to define initial size of ArrayList and why?
@@ -173,9 +184,11 @@
 - How many thread simple program that prints "Hello world" to console has?
 
 ## Queues
+
 - Types of queues in Java
 
 ## Others
+
 - FIFO vs LIFO
 - Big O for collections (Hash, Tree, Linked, Array based)
 - When to use which types of collections? (hash vs tree vs linked)
@@ -185,11 +198,13 @@
 - PECS - when to use super, extends. What limitations they have? (i.e. putting/getting from collections, cast required etc.)
 
 ## Collections - practial tasks:
+
 - Implement custom Stack / List / Queue.
 - Implement custom Stack / List / Queue using pure TDD.
 - Implement Stack / List / Queue methods using only recursion.
 
 ## JVM, Garbage Collector, JIT
+
 - Java memory model (heap vs stack, young generation vs old generation, metaspace etc.)
 - What flags do you know for tuning JVM/Garbage Collector?
 - How many thread simple program that prints "Hello world" to console has?
@@ -220,17 +235,21 @@
 - What Garbage Collectors do you know? What are the main differnces between them?
 
 ## Libraries
+
 - How can we provide logging mechanisms inside Java application? What logging frameworks do you know?
 - Why it's better to use logging frameworks instead of output to System.out?
 
 ## JMX
+
 - What is JMX?
 - Is JMX one way or two way communication protocol (read, write or read & write)?
 
 ## JMS
+
 - Topic vs Queue in JMS
 
 ## XML, JAXB
+
 - Sax vs DOM vs JAXB in XML parsing. What is the difference with the approach?
 - What is JAXB? What tools (i.e wsimport) do you know?
 - How we convert Java object to XML? What are steps in JAXB marshalling?

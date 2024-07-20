@@ -78,6 +78,7 @@
 - What best practices do you follow to ensure high quality of the code?
 - You got an old legacy system without tests. Your team needs to implement several big features. What would you do to
   ensure nothing is broken and the code delivered?
+- What is in your opinion a definition of a successful delivery?
 
 ## Conflict management
 
