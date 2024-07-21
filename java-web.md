@@ -1,6 +1,7 @@
 # Web
 
 ## Java EE
+
 - What is a difference between stateless and stateful beans?
 - What are message-driven beans?
 - What is EJB?
@@ -9,6 +10,7 @@
 - What is a Session (EJB) Context? How can we use that?
 
 ## General
+
 - HTTP methods vs CRUD
 - What are the differences between SOAP and REST webservices?
 - What types of return codes do you know? What types of codes belong to 1XX, 2XX, 3XX, 4XX, 5XX (i.e. 404 etc.)
@@ -27,13 +29,16 @@
 - What type of web service you will choose when your main concern is security of information (confidentiality)? Why?
 - What type of web service you will choose when your main concern is payload size? Why?
 - What type of web service guarantees that content has been sent from correct sender?
+- What is a connection leak and how to prevent it? What is a Pool Exhaustion?
 
 ## REST
+
 - What is REST protocol?
 - What side effects have use of REST protocol?
 - How you will describe best implemented and designed REST webservice from perspective of exposed API?
 
 ## SOAP
+
 - What is SOAP protocol?
 - How can we describe structure of SOAP web service interfaces to be understandable for third party developer?
 - What is WSDL?
@@ -43,6 +48,7 @@
 - What part of SOAP envelope do we encrypt?
 
 ## JSF/JSP/Servlets
+
 - How can you describe JSF technology?
 - What is JSP (Java Servlet Pages) technology?
 - What are pros and cons using both JSF and JSP?
@@ -57,6 +63,7 @@
 - What is a lifecycle of filters? (init -> doFilter -> destroy)
 
 ## Security
+
 - What is a SQL injection and how to prevent that?
 - What is XSS (cross-site scripting) and how to prevent that?
 - How HTTPS works
