@@ -1,5 +1,9 @@
 # Front-end
 
+## General
+
+- How can we reduce the load time of the web page?
+
 ## Javascript
 
 - Hoisting in JS
