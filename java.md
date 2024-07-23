@@ -21,33 +21,33 @@
 
 ## Core
 
-- How can we construct a new object in Java (i.e. new operator, cloning, deserialization, reflection -> Class.forName())f
-- what primitive types do you know? What is the size of each?
+- How can we construct a new object in Java (i.e. a new operator, cloning, deserialization, reflection -> Class.forName())
+- What primitive types do you know? What is the size of each?
 - Describe what is the meaning of following keywords: protected,  private, public, no keyword.
+- Overloading vs overriding vs hiding
+- What are rules of overloading?
 - What is the difference between override and overload + static and runtime polymorphism.
 - How can you prevent class from being subclassed?
-- Transient keyword, what is it used for
+- Transient keyword, what is it used for?
 - How to make an object immutable?
 - What do we gain from class immutability?
-- What is defensive copying?
+- What is a defensive copying?
 - Hard, soft, weak, phantom references. What are differences? How to make a cache from weak references? What can be used instead of finalize method?
 - How to make a memory leak in Java? How to analyze memory leaks in Java? What tools you can use?
 - What is new in JDK7/8/9/10...?
 - Checked vs unchecked exceptions. Can we catch Error? How to make a good API?
 - Exceptions translation
-- Overloading vs overriding vs hiding
-- Rules of overloading
 - Can static method be overloaded? What is hiding? What will happen if extending class will define the non-static method with the same name?
 - Difference between object and primitive?
-- How to observe polymorphism in Java? Provide an example
+- How to observe polymorphism in Java? Provide an example.
 - Can interface have methods implemented?
 - Can interface have private methods?
-- final, finalize, finally
+- What are final, finalize, finally?
 - When finally is not going to be executed?
 - Will finally be executed when we override SecurityManager behavior?
-- Boxing, Unboxing, Autoboxing - performance implications
-- What is try-with-resources in Java7?
-- What does it mean that a stream from Java8 is lazy?
+- What is Boxing/Unboxing/Autoboxing and what are the performance implications?
+- What is try-with-resources?
+- What does it mean that a stream (from Java8) is lazy?
 - What are terminal vs non-terminal operations in streams? What are types returned from such operations?
 - For loop performance vs Stream performance for 100 items.
 - How to analyze the app performance? What tools you can use?
@@ -62,27 +62,29 @@
 - What is immutable object pattern? Is it used in java (JDK)? Describe immutable types
 - What design patterns are used in JDK? (i.e. Decorator in I/O, Strategy in Comparators, Singleton while getting runtime, Builder in StringBuilder)
 - What methods are defined in Object class in Java?
-- There are two methods with same name - one takes the argument of Object, another one of String. Which one will be invoked if we pass null and why?
+- There are two methods with same name - one takes the argument of Object, another one of String. Which one will be invoked if we pass null and why? (The "Most Specific" Principle)
 - Is it a good practice to use "Optional" as a method argument? How about serialization?
 - What do you think about returning a Stream from a method?
 - There is set of users. Each user contains set of languages he speaks. How to get all languages spoken by all users? (stream with flatmap and distincts)
 - Fields in lambdas are effective final. How we can bypass that to i.e. increment a value inside (use objects like i.e. AtomicInteger to increment)
-- What is a classloader? What is a hierarchy of classloaders?
+- What is a classloader? What is a hierarchy of classloaders (Bootstrap, Platform, Application, Custom)?
 - How to create an annotation?
 - Is it possible to have a final constructor and why?
 - Do we need to override hashcode if we override equals?
 - What is a ThreadLocal? Where can it be helpful?
-- What is a difference between Inner and nested class?
+- What is a difference between Inner (non-static) and Nested (static) Class?
 - When we need a private constructor?
 - How can we make a XOR in Java?
 - How can we create a copy constructor?
 - What is a Dynamic Binding?
 - Explain when default methods in interfaces can be handy.
+- What is a difference between heap vs thread vs core dump? How to analyze these files? What tools can you use for that?
+- What is jcmd? How to use that?
 
 ## Generics
 
-- What is "type erasure"? Why it was introduced? What version of Java introduced generics?
-- PECS - when to use super, extends. What limitations they have? (i.e. putting/getting from collections, cast required etc.)
+- What is a "type erasure"? Why it was introduced? What version of Java introduced generics?
+- PECS ("Producer extends, Consumer super") - when to use super, extends. What limitations they have? (i.e. putting/getting from collections, cast required etc.)
 - invariance vs covariance vs contravariance
 - Are arrays covariant?
 - What is the difference between i.e. `List<?>` vs `List<Object>`? What is the purpose of the wildcard here? Where such construct can be used?
