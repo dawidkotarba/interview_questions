@@ -82,6 +82,7 @@
 ## Generics
 
 - What is a "type erasure"? Why it was introduced? What version of Java introduced generics?
+- What are Bounded Genrics?
 - PECS ("Producer extends, Consumer super") - when to use super, extends. What limitations they have? (i.e. putting/getting from collections, cast required etc.)
 - invariance vs covariance vs contravariance
 - Are arrays covariant?
