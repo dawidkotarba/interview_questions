@@ -78,8 +78,6 @@
 - How can we create a copy constructor?
 - What is a Dynamic Binding?
 - Explain when default methods in interfaces can be handy.
-- What is a difference between heap vs thread vs core dump? How to analyze these files? What tools can you use for that?
-- What is jcmd? How to use that?
 
 ## Generics
 
@@ -212,12 +210,12 @@
 - How many thread simple program that prints "Hello world" to console has?
 - Describe Java memory model
 - How can we measure performance of the application? What tools do you know for such purpose?
-- Difference between PermGen and Metaspace
+- Difference between PermGen and Metaspace (i.e. which is newer, which has dynamic space allocation)? 
 - What is full/major/minor GC? How to avoid full GC?
 - Young vs Old generation
 - How GC works? (root, phases etc.)
 - Do you know difference between survivor 1 and survivor 2 in Java?
-- What is the structure of JVM heap?
+- What is the structure of JVM heap (Eden, Survivor Space, Old Gen)?
 - How we can influence garbage collection in JVM?
 - Tools provided with JDK
 - What is profiling?
@@ -235,6 +233,8 @@
 - How to create a second instance of a singleton object?
 - What are the GC phases?
 - What Garbage Collectors do you know? What are the main differnces between them?
+- What is a difference between heap vs thread vs core dump? How to analyze these files? What tools can you use for that?
+- What is jcmd? How to use that?
 
 ## Libraries
 
