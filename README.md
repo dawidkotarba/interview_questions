@@ -1,26 +1,30 @@
-# Interview questions
+# Interview Questions Collection
 
-Recruitment questions I (or colleagues ;)) heard/were asked during interviews for a Java Dev / Engineering Manager position.
-All pull requests with other questions are more than welcome :)
+A curated collection of **recruitment questions** that I (and colleagues 😉) have encountered or asked during interviews for **Java Developer** and **Engineering Manager** positions.
 
-- City: Krakow, Poland
-- Date: ~2016-2022
+Contributions are **welcome**! Feel free to open a pull request with additional questions or improvements.
 
-### Sections:
+- **Location:** Kraków, Poland
+- **Timeframe:** ~2016–2024
 
-- [Agile](agile.md)
-- [Architecture](architecture.md)
-- [Front-end](front-end.md)
-- [General](general.md)
-- [Git](git.md)
-- [Good practices](good-practices.md)
-- [Java](java.md)
-- [Java Web, EE](java-web.md)
-- [JPA/Hibernate](jpa-hibernate.md)
-- [Engineering Management / Leadership](engineering-management.md)
+---
+
+## Sections (Alphabetical by Description)
+
+- [Agile, Project Practices & Estimation](agile.md)
+- [Architecture & Distributed Systems](architecture.md)
+- [Engineering Management & Leadership](engineering-management.md)
+- [Front-end Development](front-end.md)
+- [General IT & Algorithms](general.md)
+- [Git & Version Control](git.md)
+- [Good Practices in Projects](good-practices.md)
+- [Core Java](java.md)
+- [Java Web / EE](java-web.md)
+- [JPA / Hibernate](jpa-hibernate.md)
 - [Maven](maven.md)
-- [Soft skills](soft-skills.md)
-- [Spring](spring.md)
-- [SQL](sql.md)
-- [Testing](testing.md)
-- [Hybris](hybris.md)
+- [SQL & Databases](sql.md)
+- [Soft Skills](soft-skills.md)
+- [Spring Framework](spring.md)
+- [Testing & Quality Assurance](testing.md)
+- [SAP Hybris](hybris.md)
+

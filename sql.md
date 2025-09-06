@@ -1,49 +1,93 @@
-# SQL
+# SQL Interview Questions
 
-## General
-- What is more heavy for the database? Reads or writes? What needs to be considered to answer such question?
+## Fundamentals
+- What is SQL? Difference between SQL and NoSQL.
+- What is the difference between DDL, DML, DCL, and TCL?
+- What are the main differences between OLTP and OLAP databases?
+- What is normalization? What normal forms do you know (1NF, 2NF, 3NF, BCNF)?
+- What is denormalization? When would you use it?
+- What are schema-on-read and schema-on-write?
 
-## SQL
-- What is a SQL injection? How to prevent?
-- Types of joins (left, right, inner, full)
-- What is the difference between LEFT INNER JOIN and LEFT OUTER JOIN?
-- What is union? Union distinct
-- What is index in database?
-- What data structures a db index can be based on?
-- What is "having" in SQL? When to use it?
-- Where to use "having" and when "where"
-- How can you display SQL query results so that they are not repeated (distinct)?
-- What are views? How to create? Is it possible to update,insert?
+## Querying
+- Difference between WHERE and HAVING.
+- How can you remove duplicate rows from query results?
+- What is the difference between UNION and UNION ALL?
+- What are aggregate functions? (SUM, COUNT, AVG, MIN, MAX, GROUP_CONCAT, etc.)
+- What is a subquery? Difference between correlated and non-correlated subqueries.
+- What is the difference between EXISTS and IN?
+- Difference between DELETE, TRUNCATE, and DROP.
+- How does pagination of records work? (OFFSET, LIMIT, ROW_NUMBER()).
+
+## Joins
+- Types of joins: INNER, LEFT, RIGHT, FULL, CROSS.
+- What is the difference between LEFT JOIN and LEFT OUTER JOIN?
+- What is a self-join? Example use case.
+- What is a Cartesian join (CROSS JOIN)? When could it be useful?
+
+## Keys & Constraints
 - What are: candidate key, primary key, composite key, foreign key, surrogate key?
-- ACID
-- What is a bulk insert?
-- Describe aggregate functions
-- What is a pagination of records?
-- What is a sequence?
-- READ_COMMITED vs READ_COMMITED_SNAPSHOT in MS SQL Server
+- What is the difference between UNIQUE and PRIMARY KEY?
+- What is a constraint? Types of constraints (CHECK, DEFAULT, NOT NULL, UNIQUE, FOREIGN KEY).
+- What is a sequence? How is it different from AUTO_INCREMENT / IDENTITY?
 
-## NoSQL
-- What types of NoSQL databases do you know?
-- When to use NoSQL database comparing to relational one?
-- How could you compare the schema definition in NoSQL comparing to relational databases?
-- What is the CAP theorem in distributed system?
+## Views
+- What are views? How to create them?
+- Difference between a view and a materialized view.
+- Is it possible to update or insert through a view?
+- When to use a view vs a table?
 
-## Relational DB specific general questions:
-- What is syntax tree?
-- What is execution plan? How can we preview the execution plan?
-- What algorithms are used to calculate execution plan?
+## Indexing
+- What is an index in a database?
+- What data structures are commonly used for indexes (B-Tree, Hash, Bitmap, GiST, etc.)?
+- Clustered vs non-clustered indexes.
+- Composite index: what is it and when to use it?
+- Covering index – what is it and why is it useful?
+- What is an index-only scan?
+- What are the downsides of too many indexes?
+
+## Transactions & Concurrency
+- What is ACID?
+- What is a transaction? How do you start, commit, and rollback?
+- What are transaction isolation levels? (READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, SERIALIZABLE).
+- What transaction anomalies do you know (dirty read, non-repeatable read, phantom read)?
+- What is the difference between READ_COMMITTED and READ_COMMITTED_SNAPSHOT in MS SQL Server?
+- Difference between optimistic and pessimistic locking.
+- How to implement distributed transactions? (Two-phase commit, XA transactions).
+
+## Performance & Optimization
+- What is more heavy for the database: reads or writes? What needs to be considered?
+- What is an execution plan? How can we preview it?
+- What algorithms are used to generate execution plans?
+- Are execution plans cached in databases?
+- What is a syntax tree in SQL parsing?
+- How is a SQL statement processed (Parser → Optimizer → Executor)?
+- What is a bulk insert? When is it useful?
+- What is query hinting? When to use it?
+- How would you improve performance of a DB that is write-heavy?
+- How would you improve performance of a DB that is read-heavy?
+- Difference between partitioning and sharding.
+
+## Replication & Scaling
 - Describe master-slave replication.
 - Describe multi-master replication.
-- Describe what sharding is.
-- How would you improve performance of db that is only used to store data and not retrieving.
-- Describe how SQL statement is processed by database (Parser -> Optimizer -> Executor)
-- How is SQL statement optimized?
-- Are execution plans cached in databases?
-- What data structures are used in indexes? (trees, hashes etc.)
+- What is sharding? Horizontal vs vertical partitioning.
+- What algorithms can be used to distribute load between shards (hash-based, range-based, consistent hashing)?
+- How can we add another shard and evenly distribute data without downtime?
+- What is eventual consistency?
 
-## Relational DB vs OOO
-- How can you map objects with inheritance to tables? What are the pros/cons of each approach? (Compare approaches from hibernate inheritance strategies). What is a discriminator column?
+## Security
+- What is SQL injection? How to prevent it?
+- What are parameterized queries and prepared statements?
+- What is least privilege principle in DB security?
 
-## Architecture
-- What algorithms do you know that allow to evenly distribute load between shards? (i.e. hash-based)
-- How can we add another shard and evenly distribute data over there? (without shutting down entire cluster)
+## NoSQL
+- What types of NoSQL databases do you know? (Document, Key-Value, Columnar, Graph).
+- When to use NoSQL compared to relational databases?
+- How does schema definition differ between NoSQL and relational databases?
+- What is the CAP theorem? How does it apply to NoSQL DBs?
+- BASE vs ACID – what’s the difference?
+
+## Relational DB vs OOP
+- How can you map objects with inheritance to tables?
+- Pros/cons of each approach (compare with Hibernate inheritance strategies).
+- What is a discriminator column?
