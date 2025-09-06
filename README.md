@@ -9,7 +9,7 @@ Contributions are **welcome**! Feel free to open a pull request with additional 
 
 ---
 
-## Sections (Alphabetical by Description)
+## Sections
 
 - [Agile, Project Practices & Estimation](agile.md)
 - [Architecture & Distributed Systems](architecture.md)
